@@ -1,0 +1,17 @@
+.friendList {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.friendItem {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}

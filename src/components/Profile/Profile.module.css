@@ -1,0 +1,69 @@
+.profileCard {
+  margin: 10px auto;
+  padding-top: 15px;
+  border-radius: 20px;
+  width: 360px;
+  border: 2px solid black;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+.profileBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profilImage {
+  border-radius: 50%;
+  background-color: rgba(30, 27, 27, 0.877);
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+.profileTitle {
+  font-size: 35px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.profileTag {
+  color: gray;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.profileLocation {
+  color: gray;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.profileList {
+  display: flex;
+  justify-content: center;
+  border-top: 2px solid gray;
+  background-color: rgb(200, 200, 200);
+  padding: 0;
+  margin: 0;
+}
+
+.profileItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: calc(100% / 3);
+  padding: 10px;
+  border-right: 2px solid gray;
+  font-size: 19px;
+}
+
+.profileItem:last-child {
+  border-right: none;
+}
+
+.profileStatsValue {
+  font-weight: 700;
+}

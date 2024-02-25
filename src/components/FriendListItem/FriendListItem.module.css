@@ -1,0 +1,23 @@
+.friendBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.friendName {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 10px 0;
+  font-family: Arial, sans-serif;
+}
+
+.friendStatus {
+  font-size: 20px;
+  color: red;
+  margin: 10px 0;
+  font-family: Arial, sans-serif;
+}
+
+.friendStatus.friendStatusIsOnline {
+  color: green;
+}

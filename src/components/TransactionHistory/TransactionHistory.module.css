@@ -1,0 +1,28 @@
+.transactionTable {
+  border: 1px solid black;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 0 auto;
+}
+
+.tableHead {
+  background-color: #2d2c2c;
+  border: 1px solid black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-size: 18px;
+  padding: 8px 0;
+}
+
+.tableRow:nth-child(even) {
+  background-color: #a0a0a0;
+}
+
+.tableElement {
+  width: 120px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 5px;
+}
